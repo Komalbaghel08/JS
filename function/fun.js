@@ -22,4 +22,3 @@ for(let i = 0; i < 10; i++) {
 }
 
 console.log("Sum of odd numbers b/w 1 to 10 is:"+ sum);
-
