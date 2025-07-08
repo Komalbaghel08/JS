@@ -48,6 +48,7 @@
 // console.log(s1);
 
 
+// ---Slice
 let ar = [1,2,3,4,5,6,7,8,9,10]
 let sl1 = ar.slice(3,9)
 
@@ -56,3 +57,19 @@ for(i of sl1){
         console.log(i)
     }
 }
+
+
+// --->Splice
+let ar1 = [1,2,3,4,5,6,7,8,9,10]
+let sl2 = ar.splice(3,4)
+
+for(i of sl2){
+    if(i % 2 == 0){
+        console.log(i)
+    }
+}
+
+
+let k = ["KOMAL",21,'BHOPAL','RADHARAM CLG']
+k.splice(2,0,"AYUSH")
+console.log(k);
