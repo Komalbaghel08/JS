@@ -73,3 +73,14 @@ for(i of sl2){
 let k = ["KOMAL",21,'BHOPAL','RADHARAM CLG']
 k.splice(2,0,"AYUSH")
 console.log(k);
+
+
+let values = [3, 6, 9, 12, 15];
+let count = 0;
+for (let i = 0; i < values.length; i++) {
+  if (values[i] % 2 === 0) {
+    count++;
+  }
+}
+console.log("Even count:", count);
+// Even count: 2
