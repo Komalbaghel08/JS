@@ -83,4 +83,4 @@ for (let i = 0; i < values.length; i++) {
   }
 }
 console.log("Even count:", count);
-// Even count: 2
+
