@@ -13,3 +13,12 @@ And it's looking brand new!`;
 
 console.log(poem);
 
+
+// Expression Inside
+let a = 5;
+let b = 3;
+console.log(`The sum of ${a} and ${b} is ${a + b}`);
+
+
+// HTML Template
+
