@@ -1,4 +1,5 @@
-//Given array find the sum of all element 
+//Given array find the sum of all element
+
 let arr = [2,4,6,8,10]
 
 sum = 0 
@@ -11,7 +12,7 @@ console.log(sum)
 
 // find max number of an array
 let arr1 = [3,7,2,9,5]
-max_value = arr[0]
+max_value = arr1[0]
 
 for(let i = 0; i<= 5; i++){
     if(max_value < arr1[i]){
@@ -21,7 +22,7 @@ for(let i = 0; i<= 5; i++){
 
 console.log(max_value)
 
-// count even and odd num
+// // count even and odd num
 let arr2 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
 let eCount = 0;
@@ -39,7 +40,7 @@ console.log("Even numbers:", eCount);
 console.log("Odd numbers:", oCount);
 
 
-//reverse the array
+//reverse the array without using array meethod
 function sortReverse(arr){
     let n = arr.length;
 
