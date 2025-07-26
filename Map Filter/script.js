@@ -18,3 +18,38 @@ a.forEach((e)=>{
     })
 
 
+let Aoo = [{
+    name: "Ayush",
+    age: 20,
+    city: "Delhi"
+}, {
+    name: "Manas",
+    age: 22,
+    city: "Mumbai"
+}, {
+    name: "Sita",
+    age: 19,
+    city: "Kolkata"
+}, {
+    name: "Anjali",
+    age: 21,
+    city: "Chennai"
+}, {
+    name: "Komal",
+    age: 23,
+    city: "Bangalore"   
+}]
+
+
+// let s = document.getElementById("screen");
+
+Aoo.map( (e)=>{
+Show.innerHTML+= `
+<h1> </h1>
+`
+
+   
+//     document.getElementById("screen").innerHTML += e.name;
+//     document.getElementById("age").innerHTML += e.age;
+//     document.getElementById("city").innerHTML += e.city;
+})
