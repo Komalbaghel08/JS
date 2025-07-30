@@ -8,7 +8,7 @@ console.log(b);
 let c = [2,3,4,5]
 let d = c.filter((e)=>{
     return e>10
-    // return e%2 == 0
+   
 })
 console.log(c);
 
@@ -39,17 +39,4 @@ let Aoo = [{
     age: 23,
     city: "Bangalore"   
 }]
-
-
-// let s = document.getElementById("screen");
-
-Aoo.map( (e)=>{
-Show.innerHTML+= `
-<h1> </h1>
-`
-
-   
-//     document.getElementById("screen").innerHTML += e.name;
-//     document.getElementById("age").innerHTML += e.age;
-//     document.getElementById("city").innerHTML += e.city;
-})
+// array of object ko table me dikhana
