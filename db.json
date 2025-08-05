@@ -1,0 +1,39 @@
+{
+"hotel":[{
+
+    "name":"Komal",
+    "aadhar":1234567,
+    "city":"indore",
+    "checkin":"05-8-25",
+    "checkout":"08-8-25",
+    "person":4,
+    "totalprice":60000
+},{
+    
+    "name":"Kanak",
+    "aadhar":12345997,
+    "city":"mumbai",
+    "checkin":"09-8-25",
+    "checkout":"12-8-25",
+    "person":2,
+    "totalprice":80000
+},{
+
+    "name":"Karnika",
+    "aadhar":12366554567,
+    "city":"bhopal",
+    "checkin":"08-8-25",
+    "checkout":"09-8-25",
+    "person":1,
+    "totalprice":1000
+},{
+    
+    "name":"Mahak",
+    "aadhar":12347321,
+    "city":"pune",
+    "checkin":"02-8-25",
+    "checkout":"16-8-25",
+    "person":3,
+    "totalprice":500}]
+
+}
