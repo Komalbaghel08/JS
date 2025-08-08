@@ -27,3 +27,4 @@ let Book = () => {
     location.href = 'crud.html';
     return false;
 }
+
