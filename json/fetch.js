@@ -31,4 +31,3 @@ let del = (id) =>{
     let url =  `http://localhost:3000/hotel/${id}`
     fetch(url, {method:"DELETE"})
 }
-
